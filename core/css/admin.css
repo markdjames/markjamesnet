@@ -1,0 +1,31 @@
+#admin_page_controls {
+	position:fixed;
+	top:10px;
+	right:10px;
+	text-align:left;
+	padding:10px;
+	border:2px solid #000;
+	box-shadow:0 3px 5px #333;
+	background-color:#FFF;
+	z-index:1001;
+	cursor:move;
+}
+#admin_page_controls:hover {
+	opacity:1;
+}
+#admin_page_controls p {
+	font-size:14px;
+}
+#sortable {
+	margin:0;
+	padding:0;
+}
+.aggregation_item_sort {
+	list-style:none;
+	border:1px dotted #999;
+	margin:0;
+	padding:5px;
+	margin:10px;
+	cursor:move;
+	font-weight:bold;
+}

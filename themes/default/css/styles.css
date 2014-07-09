@@ -1,0 +1,85 @@
+#i_orchestra_design {
+	display:block;
+}
+#projects {
+	width:55%;
+	float:left;
+}
+h1 {
+	font-size:40px;
+	margin-top:0;
+}
+#home h1 {
+	position:static;
+	z-index:2;
+}
+.project h2 {
+	text-align:left;
+	cursor:pointer;
+}
+.project {
+	border-top:0;
+	padding:1% 4%;
+	background-color:#FFF;
+}
+.expand {
+	font-size:14px;
+}
+
+#logo {
+	position:static;
+	width:auto;
+}
+
+section {
+	width:67%;
+	float:left;
+}
+#column, #destination_container {
+	width:30%;
+	margin:7px 1% 7px 0;
+	float:left;
+} 
+#column {
+	width:31%;
+}
+#nav_toggle {
+	display:none;
+}
+nav {
+	width:100%;
+	position:relative;
+	min-height:10px;
+	display:block;
+	box-shadow:none;
+	border-top:1px solid #02b5cf;
+	border-bottom:1px solid #0193a8;
+}
+nav > .nav_icon {
+	display:none;
+}
+nav ul li {
+	float:left;
+}
+nav > ul > li > a {
+	border:none;
+}
+nav ul li ul, nav ul li ul li ul {
+	position:absolute;
+}
+#nav_arrow {
+	display:block;
+}
+
+
+.pagination_block > div > div {
+	float:left;
+	width:47%;
+	margin:1% 1.5%;
+}
+
+.item {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #999;
+	padding:10px 0;
+}

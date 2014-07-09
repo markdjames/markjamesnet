@@ -1,0 +1,14 @@
+#nav_toggle, .nav_icon {
+	display:none;
+}
+.feed {
+	width:24%;
+	float:left;
+	margin:0 0.5% 20px 0.5%;
+}
+#feed_filters fieldset {
+	width:19%;
+	margin:10px 0.5%;
+	float:left;
+	clear:none;
+}

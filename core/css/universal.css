@@ -1,0 +1,392 @@
+img {
+	outline:none;
+	border:0;
+}
+p, h1, h2, h3, h4, li, input, textarea, select, label, address {
+	font-size:16px;
+}
+p {
+	margin:0px 0px 10px 0px;
+}
+h1, h2, h3, h4, strong {
+	
+}
+h1 {
+	font-size:32px;
+}
+h2 {
+	font-size:28px;
+}
+h3 {
+	font-size:26px;
+	margin-top:0;
+}
+h4 {
+	font-size:20px;
+	margin:20px 0px;
+}
+a, a:visited {
+	text-decoration:none;
+	color:#700017;
+}
+a:hover, a:active {
+	color:#330000;
+}
+a:active {
+    outline: none;
+}
+address {
+	display: block;
+    font-style: normal;
+    padding: 0 4% 4%;
+}
+
+#screener {
+	position: fixed; 
+	left: 0px; 
+	top: 0px; 
+	background-color:#000; 
+	opacity: 0.5; 
+	z-index: 2000; 
+	height:2000px; 
+	width:100%;
+	display:none;
+}
+#screener:hover {
+	width:100%;
+}
+#modal_wrap {
+	position: fixed; 
+	left: 0px; 
+	top: 100px; 
+	z-index: 2001; 
+	pointer-events:none; 
+	width:100%;
+	display:none;
+}
+#modal {
+	z-index: 2002; 
+	background-color:#ffffff; 
+	pointer-events:auto; 
+	margin:auto; 
+	padding:20px; 
+	border:3px solid #000;
+	box-shadow:0 0 20px #333;
+	position:relative;
+	width:100px;
+	overflow-y:auto;
+}
+.modal_cross {
+	float:right;	
+}
+#modal h3 {
+	margin:0;
+}
+td {
+	vertical-align:top;
+}
+label {
+	display:block;
+	clear:left;
+	font-size:15px;
+	margin-top:10px;
+}
+input[type=text], input[type=password], textarea {
+	width:99%;
+}
+select {
+	width:100%;
+	height:30px;
+}
+input[type=submit] {
+	float:right;
+	margin-top:10px;
+}
+input[type=button] {
+	margin-top:10px;
+}
+.modal_cross {
+	float:right;
+	cursor:pointer;
+}
+.expander {
+	position:relative;
+	
+}
+.expander_break {
+	display:none;
+	overflow:hidden;
+}
+iframe.film {
+	clear:both;
+	margin:0 10px -4px 0;
+}
+.paginator_year {
+	clear:both;
+}
+
+#modal_tabs {
+	float:right;
+	position:relative;
+	margin-right:20px;
+	top:6px;
+}
+
+#modal_tabs ul li {
+	float:left;
+	list-style:none;
+}
+#modal_tabs ul li a {
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding:5px 10px;
+	border:1px solid #666;
+	border-radius:10px;
+	margin-left:10px;
+}
+#modal_tabs ul li a:hover {
+	background-color:#ccc;
+}
+
+.ordering_gallery {
+	height:20px;
+	cursor:move;
+	overflow:hidden;
+}
+.ordering_gallery:hover {
+	background-color:#e5e5e5;
+}
+.ordering_gallery input {
+	display:none;
+}
+
+input[type=search] {
+	width:500px;
+	font-size:18px;
+	padding:5px;
+	border:1px solid #999;
+}
+.ui-autocomplete-category {
+    color: #666666;
+    display: block;
+    font-size: 12px;
+}
+
+.carousel {
+	margin-top:30px;
+}
+.carousel, .carousel_inner {
+	overflow:hidden;
+}
+.carousel_inner {
+	float:left;
+	margin-right:20px;
+}
+.carousel_slider {
+	position:relative;
+	left:0px;
+}
+.carousel_element {
+	background-color:#efefef;
+	margin-right:20px;
+	float:left; 
+	cursor:pointer;
+	max-width:217px;
+}
+.carousel_element h3 {
+	padding:7px;
+	font-weight:normal;
+	color:#706c69;
+	font-size:20px;
+}
+.carousel_element h3 a {
+	color:#706c69;
+}
+	
+.carousel_left, .carousel_right {
+	width:100px;
+	cursor:pointer;
+	float:left;
+}
+.carousel_right {
+	background-image:url(../images/next_arrow.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+.carousel_right:hover {
+	background-image:url(../images/next_arrow_over.png);
+}
+.carousel_left {
+	background-image:url(../images/previous_arrow.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	margin-right:20px;
+}
+.carousel_left:hover {
+	background-image:url(../images/previous_arrow_over.png);	
+}
+
+.accordian {
+	border:2px solid #700017;
+	margin-bottom:20px;
+	
+}
+.accordian {
+	background-color:#efefef;
+}
+.accordian_open {
+	background-color:#fff;
+}
+.accordian_top {
+	cursor:pointer;
+	padding:10px;
+}
+.accordian_inner {
+	padding:10px;
+}
+.accordian .accordian_top:hover {
+	background-color:#e4ddd9;
+}
+.accordian_top h3 {
+	font-size:32px;
+	color:#700017;
+	font-weight:normal;
+}
+
+
+#main_image {
+	position:relative;
+	height:494px;
+
+}
+.gallery_img {
+	width:98%;
+	height:464px;
+	padding:1%;
+	background-color:#fff;
+	float:left;
+	position:absolute;
+	box-shadow: 2px 2px 0 #A39E9E;
+}
+.gallery_img img {
+	width:100%;
+}
+.gallery_img h3 {
+	padding:10px 0 5px 10px;
+	font-weight:normal;
+	color:#ff;
+}
+.gallery_img p {
+	padding:0 0 10px 10px;
+	color:#706c69;
+	font-size:14px;
+}
+
+.gallery_right, .gallery_left {
+	height:414px;
+	width:90px; 
+	float:left;
+	cursor:pointer;
+	position:absolute;
+	z-index:10;
+}
+.gallery_right {
+	right:0px;
+}
+.gallery_right {
+	background-image:url(../images/next_arrow.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.gallery_right:hover {
+	background-image:url(../images/next_arrow_over.png);
+}
+.gallery_left {
+	background-image:url(../images/previous_arrow.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.gallery_left:hover {
+	background-image:url(../images/previous_arrow_over.png);	
+}
+.gallery_img .credit {
+	float:right;
+	font-size:11px;
+	color:#999;
+}
+
+#languages_fields {
+	display:none;
+	width:80%;
+	margin:auto;
+}
+.locale_fields {
+	margin-bottom:30px;
+	border:1px solid #666;
+	padding:2%;
+}
+.loading {
+	width:30px; 
+	margin:20px auto;
+}
+
+#calendar table {
+	width:100%;
+	border-collapse:collapse;
+	border:0;
+}
+#calendar table th {
+	background-color:#f0b310;
+}
+#calendar table th, #calendar table td {
+	text-align:center;
+	height:30px;
+	border:0;
+	padding:0;
+}
+#calendar .caldate {
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:#CCC;
+	padding:10px 0;
+	margin:-10px 0;
+}
+#calendar table p {
+	margin:0;
+	padding:10px 0;
+}
+
+.file_list {
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-bottom:30px;
+}
+.file_list .pdf_file a {
+	background:url(../../images/icons/adobe-pdf-logo.png) no-repeat left; 
+    padding-left: 50px; 
+	height:40px;
+	line-height:40px;
+	display:block;
+}
+.file_list .pdf_file a:hover {
+	background-color:#FF3E5A;
+}
+
+.form_left {
+    border-right: 1px solid #999999;
+    float: left;
+    padding-right: 20px;
+    width: 48%;
+}
+
+.form_right {
+    float: left;
+    padding-left: 20px;
+    width: 47%;
+}
+label {
+	margin-top:0;
+	margin-bottom:20px;
+}
